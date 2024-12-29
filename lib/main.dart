@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'nav/cupertino_segmented.dart';
 import 'charts/chart.dart';
-import 'cards/weekly_weather.dart';
+import 'widgets/weekly_weather.dart';
 import 'nav/cupertino_segmented.dart';
 
 void main() {

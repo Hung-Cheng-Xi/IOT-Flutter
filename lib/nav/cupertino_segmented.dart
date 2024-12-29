@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_iot/cards/current_conditions.dart';
-import 'package:flutter_application_iot/cards/weekly_weather.dart';
+import 'package:flutter_application_iot/widgets/current_conditions.dart';
+import '../pages/weekly_weather_page.dart';
 
 enum WeatherView { weekly, current }
 
