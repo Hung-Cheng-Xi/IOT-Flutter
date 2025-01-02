@@ -1,16 +1,19 @@
 # flutter_application_iot
 
-A new Flutter project.
+這是一個配合物聯網報告 esp32 以及 fastAPI 所去製作的手機 app framework
 
 ## Getting Started
+### 如何執行
+```bash
+flutter run
+```
 
-This project is a starting point for a Flutter application.
+## 環境設置
+因開發環境為 MacOS 所以本專案只提供查詢得到的幻境設置文檔。
+- https://docs.flutter.dev/get-started/install/macos/mobile-ios#install-the-flutter-sdk
 
-A few resources to get you started if this is your first Flutter project:
+## Hot Reload Setting
+- https://stackoverflow.com/questions/49210769/vscode-hot-reload-for-flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Flutter Gallery
+- https://github.com/flutter/gallery?tab=readme-ov-file
