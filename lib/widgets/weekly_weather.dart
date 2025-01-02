@@ -55,7 +55,6 @@ class WeatherCard extends StatelessWidget {
                 ),
               ],
             ),
-            const Divider(),
             Text("降雨機率：$rainChance",
                 style: const TextStyle(
                   fontSize: 14.0,
