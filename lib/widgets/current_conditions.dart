@@ -1,45 +1,5 @@
 import 'package:flutter/material.dart';
 
-class CurrentConditionsPage extends StatelessWidget {
-  const CurrentConditionsPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: ListView(
-        children: const [
-          ConditionCard(
-            icon: Icons.thermostat,
-            label: "溫度",
-            value: "25°C",
-          ),
-          ConditionCard(
-            icon: Icons.water_drop,
-            label: "濕度",
-            value: "65%",
-          ),
-          ConditionCard(
-            icon: Icons.compress,
-            label: "壓力",
-            value: "1013 hPa",
-          ),
-          ConditionCard(
-            icon: Icons.wb_sunny,
-            label: "紫外線指數",
-            value: "5 (中等)",
-          ),
-          ConditionCard(
-            icon: Icons.light_mode,
-            label: "光亮度",
-            value: "800 lux",
-          ),
-        ],
-      ),
-    );
-  }
-}
-
 class ConditionCard extends StatelessWidget {
   final IconData icon;
   final String label;

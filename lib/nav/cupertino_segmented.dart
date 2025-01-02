@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_iot/widgets/current_conditions.dart';
 import '../pages/weekly_weather_page.dart';
+import '../pages/current_conditions_page.dart';
 
 enum WeatherView { weekly, current }
 
@@ -68,7 +68,7 @@ class _SegmentedControlComponentState extends State<SegmentedControlComponent> {
       case WeatherView.current:
         return CurrentConditionsPage(); // 引用你的 CurrentConditionsPage
       default:
-        return const Center(child: Text("请选择视图"));
+        return const Center(child: Text("請選擇視圖"));
     }
   }
 }
