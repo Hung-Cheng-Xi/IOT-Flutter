@@ -3,8 +3,8 @@ import '../api/weekly_weather_api.dart';
 import '../models/weekly_weather_model.dart';
 import '../widgets/weekly_weather.dart';
 
-class WeatherDashboard extends StatelessWidget {
-  const WeatherDashboard({Key? key}) : super(key: key);
+class WeatherPage extends StatelessWidget {
+  const WeatherPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -64,7 +64,7 @@ class _SegmentedControlComponentState extends State<SegmentedControlComponent> {
   Widget _buildContent() {
     switch (_selectedSegment) {
       case WeatherView.weekly:
-        return WeatherDashboard(); // 引用你的 WeatherDashboard
+        return WeatherPage(); // 引用你的 WeatherDashboard
       case WeatherView.current:
         return CurrentConditionsPage(); // 引用你的 CurrentConditionsPage
       default:
